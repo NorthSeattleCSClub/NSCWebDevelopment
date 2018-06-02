@@ -1,0 +1,194 @@
+/* Reset the CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	height: 200px;
+}
+
+.intro {
+  max-width: 960px;
+  margin: 0 auto;
+	padding-top: 0;
+}
+
+.intro h1 {
+  font-size: 6em;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.wrapper {
+	max-width: 960px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-animation-delay: 4s;
+  animation-delay: 2s;
+}
+
+.text-box {
+  float: none;
+  text-align:center;
+  background-color: #fff;
+  height: 100%;
+	margin-left: 25%;
+	padding-right: 5%;
+	width: 100%;
+
+}
+
+.members-president {
+		height: 250px;
+}
+
+.members-president h3 {
+	text-transform: capitalize;
+	font-size: 2.5em;
+	padding: 0 0 1% 0;
+	font-weight: 700;
+ 	letter-spacing: .05em;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.members-president p {
+	text-align: center;
+	font-size: 1.25em;
+	padding: 0 0 1% 0;
+}
+
+
+img {
+	border-radius: 50%;
+	height: 225px;
+	width: 225px;
+	border: 7px solid #fff;
+}
+
+.image-area {
+    display: block;
+    margin-left: 60%;
+    margin-right: 50%;
+    width: 50%;
+}
+
+ul.social-buttons {
+  margin-bottom: 5%;
+}
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+.fa {
+  font-size: 20px;
+  width: 40px;
+}
+
+@media only screen and (max-width:1000px) {
+	.wrapper {
+		padding: 0% 4%;
+		max-width: inherit;
+	}
+
+	.image-area {
+		display: block;
+    margin-left: 40%;
+    margin-right: 50%;
+    width: 50%;
+	}
+
+	.text-box {
+		width: 100%;
+		height: auto;
+		margin-left: 5%;
+		padding-right: 5%;
+	}
+
+}
+
+@media only screen and (max-width:800px) {
+	.intro h1 {
+		font-size: 4em;
+		line-height: 1.2;
+	}
+	.intro h2 {
+		font-size: 1.8em;
+		padding-top: 3%;
+	}
+	.about p {
+		font-size: 1em;
+		line-height: 2;
+	}
+	footer {
+		height: 130px;
+		line-height: 1.3em;
+	}
+
+}
